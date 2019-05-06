@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+
+        <title>Final practice programming in network environments</title>
+      </head>
+      <body>
+      <font color= "deeppink">
+
+        <h1>GABRIELA'S PRACTICE @GABRIELAGCOLOMER</h1>
+      </font>
+      </body>
+
+
+
+      <img  align= 'right'  src="https://static1.squarespace.com/static/58b562051b631b125bd8316d/t/5b3ba9ba0e2e72ade9584c74/1530636773464/pink_chicken_message_in_dna.gif" width="600" height="300">
+      <body style="background-color: lightcoral;">
+        <font face="garamond" size = 4 color = "cornsilk">
+        <p>1.Chose a number so the species can be shown.</p>
+        <form action="/listSpecies" method="get">
+            Number desired:
+            <input type="text" size="2" name="limit"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain the number of species">
+        </form>
+
+
+        <p>2.This form will provide the information about the karyotype.</p>
+        <form action="/karyotype" method="get">
+            Specie desired:
+            <input type="text" size="12" name="specie"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain info">
+        </form>
+
+
+         <p>3.To know the lenght of chromosome click here.</p>
+        <form action="/chromosomeLength" method="get">
+            Specie:
+            <input type="text" size="12" name="specie"><br>
+            Number:
+            <input type="text" size="4" name="chromo"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain the gene chosen">
+        </form>
+
+            <p>4.This form will provide the information about the Gene Sequence.</p>
+            <p>Remember you have to introduce a Gene, not a number or a specie.</p>
+        <form action="/geneSeq" method="get">
+            Gene desired:
+            <input type="text" size="12" name="gene"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain info">
+        </form>
+
+
+            <p>5.This form will provide more information about the Gene Sequence.</p>
+            <p>Remember you have to introduce a Gene, not a number or a specie.</p>
+        <form action="/geneInfo" method="get">
+            Gene desired:
+            <input type="text" size="12" name="gene"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain info">
+        </form>
+
+            <p>6.This form will provide calculations about the Gene Sequence.</p>
+            <p>Remember you have to introduce a Gene, not a number or a specie.</p>
+        <form action="/geneCalc" method="get">
+            Gene desired:
+            <input type="text" size="12" name="gene"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain info">
+        </form>
+
+            <p>7.This form will provide the name, end and start about the Gene Sequence.</p>
+            <p>Remember you have to introduce a Gene number, not a gene name or a specie.</p>
+        <form action="/geneList" method="get">
+            Chromosome desired:
+            <input type="text" size="12" name="chromo"><br>
+            Start number:
+            <input type="text" size="12" name="start"><br>
+            End number:
+            <input type="text" size="12" name="end"><br>
+            Click here to show Json:
+             <input type="checkbox" name="json" value="1"><br>
+            <input type="submit" value="Click here to obtain info">
+        </form>
+        </font>
+      </body>
+    </html>
